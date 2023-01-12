@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- https://fonts.google.com/specimen/Sofia+Sans?preview.size=64&preview.layout=row -->
+        <!-- https://getcssscan.com/css-box-shadow-examples -->
+        <!-- https://webgradients.com/ -->
+        <!-- https://ionic.io/ionicons -->
+        <!-- https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip -->
+        <!-- https://codepen.io/patugarte/pen/YzZPYzy -->
+        <!-- https://lorem.space/ -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="left-side-nav">
+                <div class="github-icon grow">
+                    <a href="">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+                <div class="linkedin-icon grow">
+                    <a href="">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="right-side-nav">
+                <div class="about-nav grow">About</div>
+                <div class="projects-nav grow">Projects</div>
+                <div class="connect-nav grow">Connect</div>
+            </div>
+        </div>
+        <div class="about">
+            <div class="about-grid">
+                <div class="about-image card">
+                    <img
+                        src="https://api.lorem.space/image/face?w=300&h=500"
+                        class="card"
+                        alt=""
+                    />
+                </div>
+                <div class="about-name">Hey🙋‍♂️<br />I'm Rohan Sharma</div>
+                <div class="about-designation">Full-Stack Web Developer</div>
+            </div>
+        </div>
+        <div class="projects">
+            My Projects
+            <div class="projects-list">
+                <div class="project-item card tooltip grow">
+                    <span class="tooltiptext">Project 1</span>
+                    <img src="https://picsum.photos/1920/1080" alt="" />
+                </div>
+                <div class="project-item card tooltip grow">
+                    <span class="tooltiptext">Project 2</span>
+                    <img src="https://picsum.photos/1920/1080" alt="" />
+                </div>
+                <div class="project-item card tooltip grow">
+                    <span class="tooltiptext">Project 3</span>
+                    <img src="https://picsum.photos/1920/1080" alt="" />
+                </div>
+                <div class="project-item card tooltip grow">
+                    <span class="tooltiptext">Project 4</span>
+                    <img src="https://picsum.photos/1920/1080" alt="" />
+                </div>
+                <div class="project-item card tooltip grow">
+                    <span class="tooltiptext">Project 5</span>
+                    <img src="https://picsum.photos/1920/1080" alt="" />
+                </div>
+                <div class="project-item card tooltip grow">
+                    <span class="tooltiptext">Project 6</span>
+                    <img src="https://picsum.photos/1920/1080" alt="" />
+                </div>
+            </div>
+        </div>
+        <div class="connect">
+            <div class="connect-grid">
+                <div class="lets-connect flex-center">Let's Connnect?</div>
+                <div class="linkedin-url flex-center grow">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    Linkedin
+                </div>
+                <div class="github-url flex-center grow">
+                    <ion-icon name="logo-github"></ion-icon>
+                    Github
+                </div>
+                <div class="mail-url flex-center grow">
+                    <ion-icon name="mail-unread-outline"></ion-icon>
+                    Mail
+                </div>
+                <div class="call-url flex-center grow">
+                    <ion-icon name="call-outline"></ion-icon>
+                    Call
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>
